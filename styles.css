@@ -1,0 +1,56 @@
+body {
+    background: url("cesoir/brickwall.jpg");
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background: url("cesoir/woodwall.jpg");
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    margin: 200px 200px 0 200px;
+}
+
+Section {
+    height: 2000px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 200px 200px 200px;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    position: absolute;
+    left: 60%;
+}
+
+li {
+    display: inline-block;
+    font-size: 80px;
+    margin: 60px;
+}
+
+p {
+    font-size: 80px;
+    flex-grow: 1;
+}
+
+img {
+    flex-grow: 1;
+}
+
+#asparagus {
+    background-color: black;
+    height: 1000px;
+    flex-grow: 1;
+}
+#b-asparagus {
+    background-color: white;
+    height: 2000px;
+    flex-grow: 1;
+}
