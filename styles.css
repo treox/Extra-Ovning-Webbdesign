@@ -11,13 +11,10 @@ nav {
 }
 
 Section{
-    height: 400px;
-    padding:0;
-}
-
-Section {
     background-color: white;
+    height: 400px;
     margin: 0 100px 0px 100px;
+    padding:0;
 }
 
 div{
