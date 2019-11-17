@@ -4,94 +4,193 @@ html body {
     margin: 0;
 }
 
-nav {
-    background: url("cesoir/woodwall.jpg");
-    height: 500px;
-    margin: 100px 100px 0 100px;
-}
+@media only screen and (max-width: 600px) {
 
-Section{
-    background-color: white;
-    height: 400px;
-    margin: 0 100px 0px 100px;
-    padding:0;
-}
+    nav {
+        background: url("cesoir/woodwall.jpg");
+        height: 250px;
+        margin: 50px 50px 0 50px;
+    }
 
-div{
-    display: inline-block;
-    height: 400px;
-}
+    Section{
+        background-color: white;
+        height: 500px;
+        margin: 0 50px 0px 50px;
+        padding: 0;
+    }
 
-ul {
-    position: absolute;
-    right: 100px;
-}
+    div{
+        display: flex;
+        flex-direction: row;
+        height: 250px;
+        margin: 0 50px 0 50px;
+    }
 
-li {
-    display: inline-block;
-    font-size: 20px;
-    margin: 20px;
-}
+    ul {
+        position: static;
+    }
 
-h1 {
-    position: relative;
-    top: 100px;
-    font-size: 20px;
-}
+    li {
+        text-align: center;
+        font-size: 15px;
+        margin: 40px 15px 15px 15px;
+    }
 
-p {
-    position: relative;
-    top: 100px;
-    font-size: 15px;
-}
+    img {
+        flex-grow: 1;
+        height: 250px;
+    }
 
-footer{
-    background-color: white;
-    height: 400px;
-    margin: 0 100px 100px 100px; 
-}
+    h1 {
+        position: relative;
+        top: 50px;
+        font-size: 15px;
+    }
 
-#text-asparagus{
-    background-color: white;
-    width: 692px;
-    text-align: center;
-}
+    p {
+        position: relative;
+        top: 50px;
+        font-size: 10px;
+        text-align: center;
+    }
 
-#asparagus{
-    background-color: white;
-    position: absolute;
-    right: 100px;
-    width: 692px;
-}
+    footer{
+        background-color: white;
+        height: 250px;
+        margin: 0 50px 50px 50px; 
+    }
 
-#bar{
-    background-color: white;
-    width: 692px;
-}
+    #text-asparagus{
+        background-color: white;
+        text-align: center;
+        margin: 0;
+    }
+    
+    #asparagus{
+        background-color: white;
+        position: relative;
+        left: 0;
+        margin: 0;
+    }
 
-#text-bar{
-    background-color: white;
-    position: absolute;
-    right: 100px;
-    width: 692px;
-    text-align: center;
-}
+    #bar{
+        background-color: white;
+        margin: 0;
+    }
+    
+    #text-bar{
+        background-color: white;
+        position: relative;
+        left: 0;
+        text-align: center;
+        margin: 0;
+    }
 
-#text-food{
-    background-color: white;
-    width: 692px;
-    text-align: center;
-}
+    #text-food{
+        background-color: white;
+        text-align: center;
+        margin: 0;
+    }
+    
+    #food{
+        background-color: white;
+        position: relative;
+        left: 0;
+        margin: 0;
+    }
 
-#food{
-    background-color: white;
-    position: absolute;
-    right: 100px;
-    width: 692px;
-}
+    #egg{
+        background-color: white;
+        height: 250px;
+        margin: 0;
+    }
+} 
 
-#egg{
-    background-color: white;
-    height: 500px;
-    margin: 0px 100px 0 100px;
+@media only screen and (min-width: 600px) {
+
+    nav {
+        background: url("cesoir/woodwall.jpg");
+        height: 500px;
+        margin: 100px 100px 0 100px;
+    }
+
+    Section{
+        background-color: white;
+        height: 400px;
+        margin: 0 100px 0px 100px;
+        padding:0;
+    }
+
+    div{
+        display: inline-block;
+        height: 400px;
+    }
+
+    ul {
+        position: absolute;
+        right: 100px;
+    }
+
+    li {
+        display: inline-block;
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    h1 {
+        position: relative;
+        top: 100px;
+        font-size: 20px;
+    }
+
+    p {
+        position: relative;
+        top: 100px;
+        font-size: 15px;
+    }
+
+    footer {
+        background-color: white;
+        height: 400px;
+        margin: 0 100px 100px 100px; 
+    }
+
+    #text-asparagus {
+        background-color: white;
+        text-align: center;
+    }
+
+    #asparagus {
+        background-color: white;
+        position: absolute;
+        right: 100px;
+    }
+
+    #bar {
+        background-color: white;
+    }
+
+    #text-bar {
+        background-color: white;
+        position: absolute;
+        right: 100px;
+        text-align: center;
+    }
+
+    #text-food {
+        background-color: white;
+        text-align: center;
+    }
+
+    #food {
+        background-color: white;
+        position: absolute;
+        right: 100px;
+    }
+
+    #egg {
+        background-color: white;
+        height: 500px;
+        margin: 0px 100px 0 100px;
+    }
 }
